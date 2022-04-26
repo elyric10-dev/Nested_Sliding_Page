@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Nested Sliding Page</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="pages">
+            <div class="page one">
+                <div class="content_container">
+                    <h1>Page 01</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui corporis impedit, assumenda suscipit alias ea saepe sunt numquam fugiat est. Sunt dolores modi accusantium eum rerum vitae autem consectetur commodi!</p>
+                    <div class="next" onclick="slide('next')">Next</div>
+                </div>
+            </div>
+            <div class="page two">
+                <div class="content_container">
+                    <h1>Page 02</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui corporis impedit, assumenda suscipit alias ea saepe sunt numquam fugiat est. Sunt dolores modi accusantium eum rerum vitae autem consectetur commodi!</p>
+                    <div class="next" onclick="slide('next')">Next</div>
+                    <div class="back" onclick="slide('back')">Back</div>
+                </div>
+            </div>
+            <div class="page three">
+                <div class="content_container">
+                    <div class="swipe_pages">
+                        <div class="swipe_page A">
+                            <div class="swipe_content">
+                                <h1>Page 2 - A</h1>
+                                <div class="up" onclick="swipe('up')">Down</div>
+                                <div class="down" onclick="swipe('down')">Up</div>
+                                <div class="next" onclick="slide('next')">Next</div>
+                                <div class="back" onclick="slide('back')">Back</div>
+                            </div>
+                        </div>
+                        <div class="swipe_page B">
+                            <div class="swipe_content">
+                                <h1>Page B</h1>
+                                <div class="up" onclick="swipe('up')">Down</div>
+                                <div class="down" onclick="swipe('down')">Up</div>
+                                <div class="next" onclick="slide('next')">Next</div>
+                                <div class="back" onclick="slide('back')">Back</div>
+                            </div>
+                        </div>
+                        <div class="swipe_page C">
+                            <div class="swipe_content">
+                                <h1>Page 2 - C</h1>
+                                <div class="up" onclick="swipe('up')">Down</div>
+                                <div class="down" onclick="swipe('down')">Up</div>
+                                <div class="next" onclick="slide('next')">Next</div>
+                                <div class="back" onclick="slide('back')">Back</div>
+                            </div>
+                        </div>
+                        <div class="swipe_page D">
+                            <div class="swipe_content">
+                                <h1>Page 2 - D</h1>
+                                <div class="up" onclick="swipe('up')">Down</div>
+                                <div class="down" onclick="swipe('down')">Up</div>
+                                <div class="next" onclick="slide('next')">Next</div>
+                                <div class="back" onclick="slide('back')">Back</div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div class="page four">
+                <div class="content_container">
+                    <div class="swipe_pages">
+                        <div class="swipe_page A">
+                            <div class="swipe_content">
+                                <h1>Page 4 - A</h1>
+                                <div class="up" onclick="swipe('up')">Down</div>
+                                <div class="down" onclick="swipe('down')">Up</div>
+                                <div class="next" onclick="slide('next')">Next</div>
+                                <div class="back" onclick="slide('back')">Back</div>
+                            </div>
+                        </div>
+                        <div class="swipe_page B">
+                            <div class="swipe_content">
+                                <h1>Page 4 - B</h1>
+                                <div class="up" onclick="swipe('up')">Down</div>
+                                <div class="down" onclick="swipe('down')">Up</div>
+                                <div class="next" onclick="slide('next')">Next</div>
+                                <div class="back" onclick="slide('back')">Back</div>
+                            </div>
+                        </div>
+                        <div class="swipe_page C">
+                            <div class="swipe_content">
+                                <h1>Page 4 - C</h1>
+                                <div class="up" onclick="swipe('up')">Down</div>
+                                <div class="down" onclick="swipe('down')">Up</div>
+                                <div class="next" onclick="slide('next')">Next</div>
+                                <div class="back" onclick="slide('back')">Back</div>
+                            </div>
+                        </div>
+                        <div class="swipe_page D">
+                            <div class="swipe_content">
+                                <h1>Page 4 - D</h1>
+                                <div class="up" onclick="swipe('up')">Down</div>
+                                <div class="down" onclick="swipe('down')">Up</div>
+                                <div class="next" onclick="slide('next')">Next</div>
+                                <div class="back" onclick="slide('back')">Back</div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="page five">
+                <div class="content_container">
+                    <h1>Page 05</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui corporis impedit, assumenda suscipit alias ea saepe sunt numquam fugiat est. Sunt dolores modi accusantium eum rerum vitae autem consectetur commodi!</p>
+                    <div class="back" onclick="slide('back')">Back</div>
+                </div>
+            </div>
+
+
+
+            <div class="home" onclick="slide('home')">Home</div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
